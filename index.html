@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ShoppingCart</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+        <script>
+                tailwind.config = {
+                  theme: {
+                    extend: {
+                      colors: {
+                        clifford: '#da373d',
+                      }
+                    }
+                  }
+                }
+        </script>
+        <style type="text/tailwindcss">
+                @layer utilities {
+                  .content-auto {
+                    content-visibility: auto;
+                  }
+                }
+        </style>
+</head>
+<body>
+        <section>
+                <div class="container mx-auto ">
+                        <div class="container ">
+                        <h1 class="pt-20 text-3xl pb-5 font-bold">SHOPPING CART</h1>
+                        <p class="pb-2">5 Courses in Cart</p>
+                        </div>
+                        <div class="container  flex flex-wrap justify-between">
+
+<!-- my main -->
+                          <div class="flex flex-col w-2/3 flex-wrap">
+                         <div class="  py-2">
+
+                          <div class="container bg-gray-300 flex justify-between rounded-lg">
+                            <img src="Rectangle 762.svg" alt="" class="py-8 px-5">
+                            <p class="py-8 w-4/6">
+                              <span class="font-bold">
+                                The Complete 2022 Web Development Bootcamp
+                              </span> <br>
+                              By Dr. Angela Yu, Developer and Lead Instructor <br><br>
+                              Rating: <span class="text-yellow-400 font-bold"> * * * *</span> <br>
+                              65,5 heures au total • 490 lectures • All Levels
+                            </p>
+                            <a class="py-5 w-1/6" href="">Save for Later</a>
+                            <div class="text-blue-700 text-center py-5 w-1/6 pr-12">
+                             
+                              <a href="">Move to Wishlist</a> <br><br><br>
+                              <h1 class="text-3xl font-bold">
+                                $12.99 <br>
+                                <span class="text-gray-400 line-through">$84.99</span>
+
+                              </h1>
+                            </div>
+                          </div>
+
+                         </div>
+                         <div class="  py-2">
+
+                          <div class="container bg-gray-300 flex justify-between rounded-lg">
+                            <img src="Rectangle 762.svg" alt="" class="py-8 px-5">
+                            <p class="py-8 w-4/6">
+                              <span class="font-bold">
+                                The Complete 2022 Web Development Bootcamp
+                              </span> <br>
+                              By Dr. Angela Yu, Developer and Lead Instructor <br><br>
+                              Rating: <span class="text-yellow-400 font-bold"> * * * *</span> <br>
+                              65,5 heures au total • 490 lectures • All Levels
+                            </p>
+                            <a class="py-5 w-1/6" href="">Save for Later</a>
+                            <div class="text-blue-700 text-center py-5 w-1/6 pr-12">
+                             
+                              <a href="">Move to Wishlist</a> <br><br><br>
+                              <h1 class="text-3xl font-bold">
+                                $12.99 <br>
+                                <span class="text-gray-400 line-through">$84.99</span>
+
+                              </h1>
+                            </div>
+                          </div>
+
+                         </div>
+                         <div class="  py-2">
+
+                          <div class="container bg-gray-300 flex justify-between rounded-lg">
+                            <img src="Rectangle 762.svg" alt="" class="py-8 px-5">
+                            <p class="py-8 w-4/6">
+                              <span class="font-bold">
+                                The Complete 2022 Web Development Bootcamp
+                              </span> <br>
+                              By Dr. Angela Yu, Developer and Lead Instructor <br><br>
+                              Rating: <span class="text-yellow-400 font-bold"> * * * *</span> <br>
+                              65,5 heures au total • 490 lectures • All Levels
+                            </p>
+                            <a class="py-5 w-1/6" href="">Save for Later</a>
+                            <div class="text-blue-700 text-center py-5 w-1/6 pr-12">
+                             
+                              <a href="">Move to Wishlist</a> <br><br><br>
+                              <h1 class="text-3xl font-bold">
+                                $12.99 <br>
+                                <span class="text-gray-400 line-through">$84.99</span>
+
+                              </h1>
+                            </div>
+                          </div>
+
+                         </div>
+                         <div class="  py-2">
+
+                          <div class="container bg-gray-300 flex justify-between rounded-lg">
+                            <img src="Rectangle 762.svg" alt="" class="py-8 px-5">
+                            <p class="py-8 w-4/6">
+                              <span class="font-bold">
+                                The Complete 2022 Web Development Bootcamp
+                              </span> <br>
+                              By Dr. Angela Yu, Developer and Lead Instructor <br><br>
+                              Rating: <span class="text-yellow-400 font-bold"> * * * *</span> <br>
+                              65,5 heures au total • 490 lectures • All Levels
+                            </p>
+                            <a class="py-5 w-1/6" href="">Save for Later</a>
+                            <div class="text-blue-700 text-center py-5 w-1/6 pr-12">
+                             
+                              <a href="">Move to Wishlist</a> <br><br><br>
+                              <h1 class="text-3xl font-bold">
+                                $12.99 <br>
+                                <span class="text-gray-400 line-through">$84.99</span>
+
+                              </h1>
+                            </div>
+                          </div>
+
+                         </div>
+                        
+                           
+                         
+                        </div>
+<!-- checkout -->
+
+                         <div class="">
+                          <p>Total:</p>
+                          <h1 class="text-3xl font-bold">$64.95</h1> <br>
+                          <p class="line-through">$309.95</p> <br>
+                          <p>79% off</p>
+                          <button class="bg-blue-600 text-white w-full rounded-md text-xl font-bold my-5 mx-auto py-3">
+                            checkout
+                          </button>
+                          <br><br>
+                          <p class="font-bold text-lg text-gray-800">Promotions</p> <br>
+                          <p class="font-bold "><span class="mr-1">X</span> HT722CM71822 is applied</p> <br>
+                          <p class="px-3 border-l-2 border-r-2 border-gray-800"> 
+                            Buy 2 or more courses and <br> take an extra 15% off <br>
+                            THANKS15
+                            <a href="" class="text-blue-600 float-right text-xl font-bold">Apply</a>
+                          </p>
+                          
+                          <br><br>
+                          <div><input type="text" class="border-1 border-gray-700 border-r-0 rounded-lg" placeholder="Enter Coupon"><button class="bg-blue-700 py-2 px-5 text-white rounded-lg">Apply</button></div>
+                         </div>
+                       </div>
+                </div>
+        </section>
+</body>
+</html>
